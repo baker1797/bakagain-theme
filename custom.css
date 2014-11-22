@@ -1,0 +1,114 @@
+#header #logo {
+	margin:0px;
+}
+
+#header hgroup {
+	margin: 0px;
+}
+
+#header {
+	padding: 5px 0px;
+}
+#footer #credit {
+	display: none;
+}
+
+a.category-link-furniture, a.category-link-furniture:visited {
+	color: #663300;
+}
+a.category-link-healthcare, a.category-link-healthcare:visited {
+	color: #336699;
+}
+a.category-link-lifestyle, a.category-link-lifestyle:visited {
+	color: #99cc00;
+}
+a.category-link-culinary, a.category-link-culinary:visited {
+	color: #ff3300;
+}
+/*
+ * Link colors for product category navigation within the description text (which strips CSS)
+ */
+div.term-description a:nth-child(1) {
+	color:#663300;
+}
+div.term-description a:nth-child(2) {
+	color:#336699;
+}
+div.term-description a:nth-child(3) {
+	color:#99cc00;
+}
+div.term-description a:nth-child(4) {
+	color:#ff3300;
+}
+#header {
+	/*top: 3em;*/
+	margin-bottom: 4em;
+	border:none;
+}
+#top {
+	background: #e8e8e8;
+}
+@media (min-width:768px) {
+	#top {
+		position:fixed;
+		left:0;
+		background: #e8e8e8;
+		z-index:10000;
+		margin: 0em auto;
+		width:100%;
+		padding: 0;
+		-webkit-box-shadow: 0px 2px 10px -2px rgba(61, 65, 67, 0.45);
+		-moz-box-shadow:    0px 2px 10px -2px rgba(61, 65, 67, 0.45);
+		box-shadow:         0px 2px 10px -2px rgba(61, 65, 67, 0.45);
+	}
+	#header {
+		top: 2.5em;
+		padding: 1.618em 0 0;
+	}
+}
+
+.half_last p:last-child {
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+div.clear p {
+	margin:0;
+	padding:0;
+}
+/*
+ * Top Bar - shrink padding
+ */
+#top ul.nav > li a {
+	padding-top: 0.7em; /* was 1.387em */
+	padding-bottom: 0.7em; /* was 1.387em */
+}
+#top .wc-nav li.cart a {
+	padding-top: 0.6em; /* was 1.387em */
+	/*padding-bottom: 0.3em; /* was 1.387em */
+}
+#top .wc-nav li.checkout {
+	padding-top: 0.0em; /* was 1.387em */
+	padding-bottom: 0.0em; /* was 1.387em */
+}
+#top .wc-nav li.search form {
+	padding-top: 0.4em; /* was 1.1em */
+	padding-bottom: 0.4em; /* was 1.1em */
+	/*padding-bottom: 0.3em; /* was 1.387em */
+}
+
+.widget {
+	margin-bottom: 0.618em !important;
+}
+
+h1 {
+  font-size: 1.75em;
+  line-height: 1.387em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 .318em;
+}
